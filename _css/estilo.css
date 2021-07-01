@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+background-color: hsla(346,89%,48%,0.9);
+color: yellow;
+}
+p{
+text-align: justify;
+text-indent: 50px;
+}
+/*sombra da caixa de img*/
+figure.foto-legenda{
+    position: relative;
+    border: 4px solid white;
+    box-shadow: 2px 2px 4px black;
+}
+/*ocupação de img dento da borda*/
+figure.foto-legenda img{
+  width: 100%;
+  height: 100%;
+}
+/*usar o texo dentro da foto e só mostar quando o maouse passar*/
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
