@@ -7,6 +7,14 @@ p{
 text-align: justify;
 text-indent: 50px;
 }
+
+p.maior{
+  text-align: justify;
+  text-indent: 20px;
+  font-size: x-large;
+
+}
+
 /*sombra da caixa de img*/
 figure.foto-legenda{
     position: relative;
