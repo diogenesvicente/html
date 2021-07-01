@@ -11,7 +11,7 @@ text-indent: 50px;
 p.maior{
   text-align: justify;
   text-indent: 20px;
-  font-size: x-large;
+  font-size: 30px;
 
 }
 
@@ -28,6 +28,7 @@ figure.foto-legenda img{
 }
 /*usar o texo dentro da foto e só mostar quando o maouse passar*/
 figure.foto-legenda figcaption{
+    opacity: 0;
     position: absolute;
     top: 0px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -36,5 +37,11 @@ figure.foto-legenda figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    transition: 1s;
 
+}
+
+figure.foto-legenda: hover figcaption{
+
+  opacity: 1;
 }
